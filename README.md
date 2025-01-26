@@ -15,3 +15,7 @@ php artisan db:seed
 ```bash
 composer clear-cache
 ```
+
+```bash
+php artisan db:seed --class=UserSeeder
+```
