@@ -19,3 +19,7 @@ composer clear-cache
 ```bash
 php artisan db:seed --class=UserSeeder
 ```
+
+```bash
+composer install --ignore-platform-reqs
+```
